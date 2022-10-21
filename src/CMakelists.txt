@@ -1,3 +1,5 @@
 
 add_subdirectory(create_and_show_window)
 add_subdirectory(load_image_with_display)
+add_subdirectory(load_yuv_with_display)
+add_subdirectory(load_yuv_with_play)
