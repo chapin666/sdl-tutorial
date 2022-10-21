@@ -1,0 +1,13 @@
+/Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/CMakeFiles/sdl_tutorial.dir
+/Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/cmake_utils/CMakeFiles/edit_cache.dir
+/Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/cmake_utils/CMakeFiles/rebuild_cache.dir
+/Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+/Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+/Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/src/create_and_show_window/CMakeFiles/create_and_show_window.dir
+/Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/src/create_and_show_window/CMakeFiles/edit_cache.dir
+/Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/src/create_and_show_window/CMakeFiles/rebuild_cache.dir
+/Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/src/load_image_with_display/CMakeFiles/load_image_with_display.dir
+/Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/src/load_image_with_display/CMakeFiles/edit_cache.dir
+/Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/src/load_image_with_display/CMakeFiles/rebuild_cache.dir

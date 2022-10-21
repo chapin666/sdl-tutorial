@@ -1,0 +1,11 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/mengxiang/Source/cpp/sdl-tutorial -B /Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug
+/Users/mengxiang/Source/cpp/sdl-tutorial/cmake_utils
+init library path
+link sdl library
+link sdl image library
+create_and_show_window link sdl image
+load_image_with_display link sdl image
+load_image_with_display link sdl image
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug

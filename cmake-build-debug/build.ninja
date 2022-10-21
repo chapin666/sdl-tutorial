@@ -1,0 +1,356 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: sdl_tutorial
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target sdl_tutorial
+
+
+#############################################
+# Order-only phony target for sdl_tutorial
+
+build cmake_object_order_depends_target_sdl_tutorial: phony || CMakeFiles/sdl_tutorial.dir
+
+build CMakeFiles/sdl_tutorial.dir/main.cpp.o: CXX_COMPILER__sdl_tutorial_Debug /Users/mengxiang/Source/cpp/sdl-tutorial/main.cpp || cmake_object_order_depends_target_sdl_tutorial
+  DEFINES = -DPROJECT_DIR_PATH=\"/Users/mengxiang/Source/cpp/sdl-tutorial\"
+  DEP_FILE = CMakeFiles/sdl_tutorial.dir/main.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  INCLUDES = -I/usr/local/Cellar/sdl2/2.0.22/include/SDL2 -I/usr/local/Cellar/sdl2_image/2.6.0/include/SDL2
+  OBJECT_DIR = CMakeFiles/sdl_tutorial.dir
+  OBJECT_FILE_DIR = CMakeFiles/sdl_tutorial.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sdl_tutorial
+
+
+#############################################
+# Link the executable sdl_tutorial
+
+build sdl_tutorial: CXX_EXECUTABLE_LINKER__sdl_tutorial_Debug CMakeFiles/sdl_tutorial.dir/main.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  LINK_PATH = -L/usr/local/Cellar/sdl2/2.0.22/lib   -L/usr/local/Cellar/sdl2_image/2.6.0/lib
+  OBJECT_DIR = CMakeFiles/sdl_tutorial.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = sdl_tutorial
+  TARGET_PDB = sdl_tutorial.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/mengxiang/Source/cpp/sdl-tutorial -B/Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/mengxiang/Source/cpp/sdl-tutorial/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build cmake_utils/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/cmake_utils && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build cmake_utils/edit_cache: phony cmake_utils/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build cmake_utils/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/cmake_utils && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/mengxiang/Source/cpp/sdl-tutorial -B/Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build cmake_utils/rebuild_cache: phony cmake_utils/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/mengxiang/Source/cpp/sdl-tutorial/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/src && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build src/edit_cache: phony src/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/src && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/mengxiang/Source/cpp/sdl-tutorial -B/Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/mengxiang/Source/cpp/sdl-tutorial/src/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target create_and_show_window
+
+
+#############################################
+# Order-only phony target for create_and_show_window
+
+build cmake_object_order_depends_target_create_and_show_window: phony || src/create_and_show_window/CMakeFiles/create_and_show_window.dir
+
+build src/create_and_show_window/CMakeFiles/create_and_show_window.dir/create_and_show_window.cpp.o: CXX_COMPILER__create_and_show_window_Debug /Users/mengxiang/Source/cpp/sdl-tutorial/src/create_and_show_window/create_and_show_window.cpp || cmake_object_order_depends_target_create_and_show_window
+  DEFINES = -DPROJECT_DIR_PATH=\"/Users/mengxiang/Source/cpp/sdl-tutorial\"
+  DEP_FILE = src/create_and_show_window/CMakeFiles/create_and_show_window.dir/create_and_show_window.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  INCLUDES = -I/usr/local/Cellar/sdl2/2.0.22/include/SDL2 -I/usr/local/Cellar/sdl2_image/2.6.0/include/SDL2
+  OBJECT_DIR = src/create_and_show_window/CMakeFiles/create_and_show_window.dir
+  OBJECT_FILE_DIR = src/create_and_show_window/CMakeFiles/create_and_show_window.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target create_and_show_window
+
+
+#############################################
+# Link the executable src/create_and_show_window/create_and_show_window
+
+build src/create_and_show_window/create_and_show_window: CXX_EXECUTABLE_LINKER__create_and_show_window_Debug src/create_and_show_window/CMakeFiles/create_and_show_window.dir/create_and_show_window.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  LINK_LIBRARIES = -Wl,-rpath,/usr/local/Cellar/sdl2/2.0.22/lib -Wl,-rpath,/usr/local/Cellar/sdl2_image/2.6.0/lib  -lSDL2  -lSDL2_test  -lSDL2main
+  LINK_PATH = -L/usr/local/Cellar/sdl2/2.0.22/lib   -L/usr/local/Cellar/sdl2_image/2.6.0/lib
+  OBJECT_DIR = src/create_and_show_window/CMakeFiles/create_and_show_window.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/create_and_show_window/create_and_show_window
+  TARGET_PDB = create_and_show_window.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build src/create_and_show_window/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/src/create_and_show_window && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build src/create_and_show_window/edit_cache: phony src/create_and_show_window/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src/create_and_show_window/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/src/create_and_show_window && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/mengxiang/Source/cpp/sdl-tutorial -B/Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src/create_and_show_window/rebuild_cache: phony src/create_and_show_window/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/mengxiang/Source/cpp/sdl-tutorial/src/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target load_image_with_display
+
+
+#############################################
+# Order-only phony target for load_image_with_display
+
+build cmake_object_order_depends_target_load_image_with_display: phony || src/load_image_with_display/CMakeFiles/load_image_with_display.dir
+
+build src/load_image_with_display/CMakeFiles/load_image_with_display.dir/load_image_with_display.cpp.o: CXX_COMPILER__load_image_with_display_Debug /Users/mengxiang/Source/cpp/sdl-tutorial/src/load_image_with_display/load_image_with_display.cpp || cmake_object_order_depends_target_load_image_with_display
+  DEFINES = -DPROJECT_DIR_PATH=\"/Users/mengxiang/Source/cpp/sdl-tutorial\"
+  DEP_FILE = src/load_image_with_display/CMakeFiles/load_image_with_display.dir/load_image_with_display.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  INCLUDES = -I/usr/local/Cellar/sdl2/2.0.22/include/SDL2 -I/usr/local/Cellar/sdl2_image/2.6.0/include/SDL2
+  OBJECT_DIR = src/load_image_with_display/CMakeFiles/load_image_with_display.dir
+  OBJECT_FILE_DIR = src/load_image_with_display/CMakeFiles/load_image_with_display.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target load_image_with_display
+
+
+#############################################
+# Link the executable src/load_image_with_display/load_image_with_display
+
+build src/load_image_with_display/load_image_with_display: CXX_EXECUTABLE_LINKER__load_image_with_display_Debug src/load_image_with_display/CMakeFiles/load_image_with_display.dir/load_image_with_display.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  LINK_LIBRARIES = -Wl,-rpath,/usr/local/Cellar/sdl2/2.0.22/lib -Wl,-rpath,/usr/local/Cellar/sdl2_image/2.6.0/lib  -lSDL2  -lSDL2_test  -lSDL2main  -lSDL2_image
+  LINK_PATH = -L/usr/local/Cellar/sdl2/2.0.22/lib   -L/usr/local/Cellar/sdl2_image/2.6.0/lib
+  OBJECT_DIR = src/load_image_with_display/CMakeFiles/load_image_with_display.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/load_image_with_display/load_image_with_display
+  TARGET_PDB = load_image_with_display.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build src/load_image_with_display/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/src/load_image_with_display && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build src/load_image_with_display/edit_cache: phony src/load_image_with_display/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src/load_image_with_display/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/src/load_image_with_display && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/mengxiang/Source/cpp/sdl-tutorial -B/Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src/load_image_with_display/rebuild_cache: phony src/load_image_with_display/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+build create_and_show_window: phony src/create_and_show_window/create_and_show_window
+
+build load_image_with_display: phony src/load_image_with_display/load_image_with_display
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug
+
+build all: phony sdl_tutorial cmake_utils/all src/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/cmake_utils
+
+build cmake_utils/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/src
+
+build src/all: phony src/create_and_show_window/all src/load_image_with_display/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/src/create_and_show_window
+
+build src/create_and_show_window/all: phony src/create_and_show_window/create_and_show_window
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/mengxiang/Source/cpp/sdl-tutorial/cmake-build-debug/src/load_image_with_display
+
+build src/load_image_with_display/all: phony src/load_image_with_display/load_image_with_display
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../cmake_utils/CMakeLists.txt ../src/CMakeLists.txt ../src/create_and_show_window/CMakeLists.txt ../src/load_image_with_display/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt ../cmake_utils/CMakeLists.txt ../src/CMakeLists.txt ../src/create_and_show_window/CMakeLists.txt ../src/load_image_with_display/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

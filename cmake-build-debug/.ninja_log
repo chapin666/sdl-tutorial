@@ -1,0 +1,14 @@
+# ninja log v5
+3	1079	1666364161899140194	source/create_and_show_window/CMakeFiles/create_and_show_window.dir/__/load_image_with_display/load_image_with_display.cpp.o	c2f8127e5fff1dbc
+0	818	1666363113988275061	CMakeFiles/sdl_tutorial.dir/main.cpp.o	9928611326b09471
+0	100	1666365594885271503	build.ninja	a98a120addca128b
+0	1450	1666362931622786246	source/create_and_show_window/CMakeFiles/create_and_show_window.dir/create_and_show_window.cpp.o	641f3a7bec6975e9
+819	900	1666363114073511808	sdl_tutorial	a87027cae85b6b38
+3	1210	1666362891592492574	CMakeFiles/sdl_tutorial.dir/source/create_and_show_window/create_and_show_window.cpp.o	5a7e16b66b267403
+3	77	1666364231148205434	source/create_and_show_window/create_and_show_window	bc98dae429d508ca
+0	1334	1666365484632295944	src/create_and_show_window/CMakeFiles/create_and_show_window.dir/create_and_show_window.cpp.o	9e6c09abc2f5b6e9
+1335	1432	1666365484737387897	src/create_and_show_window/create_and_show_window	cd94bbebacbd7ff
+0	1329	1666365498913825773	src/load_image_with_display/CMakeFiles/load_image_with_display.dir/load_image_with_display.cpp.o	3b8407f5ab6e0941
+2	79	1666365611914765604	src/load_image_with_display/load_image_with_display	bd9dfc4f82a09ca8
+3	1113	1666365644005926366	src/load_image_with_display/CMakeFiles/load_image_with_display.dir/load_image_with_display.cpp.o	3b8407f5ab6e0941
+1113	1181	1666365644081174228	src/load_image_with_display/load_image_with_display	bd9dfc4f82a09ca8
