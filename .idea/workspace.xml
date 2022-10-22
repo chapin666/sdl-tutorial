@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="sdl_tutorial" targetName="sdl_tutorial" />
+      <config projectName="sdl_tutorial" targetName="load_yuv_with_display" />
+      <config projectName="sdl_tutorial" targetName="push_pcm_with_play" />
+      <config projectName="sdl_tutorial" targetName="load_image_with_display" />
+      <config projectName="sdl_tutorial" targetName="load_yuv_with_play" />
+      <config projectName="sdl_tutorial" targetName="pull_pcm_with_play" />
+      <config projectName="sdl_tutorial" targetName="create_and_show_window" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fb688013-248a-4095-8ab6-ec3983b7292a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pull_pcm_with_play/CMakelists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pull_pcm_with_play/pull_pcm_with_play.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/push_pcm_with_play/CMakelists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/push_pcm_with_play/push_pcm_with_play.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakelists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CMakelists.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="vzv9e3n7" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="2.4" />
+  </component>
+  <component name="ProjectId" id="2GT1P4mTkhQGAol9was30fqt1JH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RunManager" selected="CMake Application.pull_pcm_with_play">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="create_and_show_window" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sdl_tutorial" TARGET_NAME="create_and_show_window" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sdl_tutorial" RUN_TARGET_NAME="create_and_show_window">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="load_image_with_display" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sdl_tutorial" TARGET_NAME="load_image_with_display" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sdl_tutorial" RUN_TARGET_NAME="load_image_with_display">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="load_yuv_with_display" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sdl_tutorial" TARGET_NAME="load_yuv_with_display" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sdl_tutorial" RUN_TARGET_NAME="load_yuv_with_display">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="load_yuv_with_play" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sdl_tutorial" TARGET_NAME="load_yuv_with_play" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sdl_tutorial" RUN_TARGET_NAME="load_yuv_with_play">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pull_pcm_with_play" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sdl_tutorial" TARGET_NAME="pull_pcm_with_play" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sdl_tutorial" RUN_TARGET_NAME="pull_pcm_with_play">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="push_pcm_with_play" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sdl_tutorial" TARGET_NAME="push_pcm_with_play" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sdl_tutorial" RUN_TARGET_NAME="push_pcm_with_play">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sdl_tutorial" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sdl_tutorial" TARGET_NAME="sdl_tutorial" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sdl_tutorial" RUN_TARGET_NAME="sdl_tutorial">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.sdl_tutorial" />
+      <item itemvalue="CMake Application.create_and_show_window" />
+      <item itemvalue="CMake Application.load_image_with_display" />
+      <item itemvalue="CMake Application.load_yuv_with_display" />
+      <item itemvalue="CMake Application.load_yuv_with_play" />
+      <item itemvalue="CMake Application.pull_pcm_with_play" />
+      <item itemvalue="CMake Application.push_pcm_with_play" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb688013-248a-4095-8ab6-ec3983b7292a" name="Changes" comment="" />
+      <created>1666397733101</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666397733101</updated>
+      <workItem from="1666397735168" duration="10806000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,3 @@
+add_executable(push_pcm_with_play push_pcm_with_play.cpp)
+
+target_link_sdl(push_pcm_with_play)
