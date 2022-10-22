@@ -27,12 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb688013-248a-4095-8ab6-ec3983b7292a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pull_pcm_with_play/CMakelists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pull_pcm_with_play/pull_pcm_with_play.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/push_pcm_with_play/CMakelists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/push_pcm_with_play/push_pcm_with_play.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CMakelists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CMakelists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +128,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666397733101</updated>
-      <workItem from="1666397735168" duration="10806000" />
+      <workItem from="1666397735168" duration="11023000" />
     </task>
     <servers />
   </component>

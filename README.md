@@ -19,6 +19,8 @@ brew install sdl2_image
 2. [load_image_with_display](./src/load_image_with_display)
 3. [load yuv with display](./src/load_yuv_with_display)
 4. [load yuv with play](./src/load_yuv_with_play)
+5. [push_pcm_with_play](./src/push_pcm_with_play)
+6. [pull_pcm_with_play](./src/pull_pcm_with_play)
 
 
 
